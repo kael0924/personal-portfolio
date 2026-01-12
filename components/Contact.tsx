@@ -34,7 +34,7 @@ export const Contact: React.FC = () => {
   };
 
   const copyEmail = () => {
-    navigator.clipboard.writeText("kyle.mendoza@example.com");
+    navigator.clipboard.writeText("kimmendoza0131@gmail.com");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -73,7 +73,7 @@ export const Contact: React.FC = () => {
                   className="group flex items-center gap-3 px-6 py-3 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white hover:border-zinc-600 transition-all"
                 >
                   <Mail className="w-5 h-5" />
-                  <span className="font-mono">kyle.mendoza@example.com</span>
+                  <span className="font-mono">kimmendoza0131@gmail.com</span>
                   {copied ? <Check className="w-4 h-4 text-emerald-500" /> : <Copy className="w-4 h-4 opacity-50 group-hover:opacity-100" />}
                 </button>
               </div>
